@@ -1,0 +1,30 @@
+# Secrets & Environment Variables (Most Critical)
+.env
+.env*
+*.env
+keys.txt
+
+# Python Virtual Environments & Cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Node & Next.js (Matches anywhere in the project)
+**/node_modules/
+**/.next/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Local databases & logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Editor & OS clutter
+.vscode/
+.cursor/
+.DS_Store
+Thumbs.db
